@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+	<title>Title of the document</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+	<h3>Quiz Modes</h3>
+	Scale Degree --&gt; Note<input type="radio" name="test-mode" checked><br>
+	Note --&gt; Scale Degree<input type="radio" name="test-mode"><br>
+	Both<input type="radio" name="test-mode"><br>
+
+	<h3>Keys</h3>
+	C<input type="checkbox" name="C" value="C" checked><br>
+	F<input type="checkbox" name="F" value="F"><br>
+	G<input type="checkbox" name="G" value="G"><br>
+
+	<h3>Scale Degrees For Key: X</h3>
+	1<input type="checkbox" name="1" value="1" checked><br>
+	2<input type="checkbox" name="2" value="2" checked><br>
+	3<input type="checkbox" name="3" value="3" checked><br>
+	4<input type="checkbox" name="4" value="4" checked><br>
+	5<input type="checkbox" name="5" value="5" checked><br>
+	6<input type="checkbox" name="6" value="6" checked><br>
+	7<input type="checkbox" name="7" value="7" checked><br>
+
+	<div ng-app="myApp" ng-controller="myCtrl">
+
+		<h3>Key: {{key}}</h3>
+		<h3>Scale degree: {{scaleDegree}}</h3>
+		<h3>Answer</h3>
+		<input type="text" ng-model="answer"><br>
+		<input type="button" value="Submit" ng-click="checkAnswer()"><br>
+
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
+

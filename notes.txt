@@ -1,0 +1,62 @@
+get font scaling stuff nightmares figured out
+Pretty up CSS (especially the grid stuff)
+do the label thing for the checkboxes
+add rest of keys into html
+add rest of keys into json
+& get checkboxes consistently starting at correct state
+# =============================================================================
+
+
+For the key of C...
+	Scale Degrees (scale degree, note, both)
+		what note is the 3rd scale degree? E
+		what scale degree is the note: F? 4
+
+	Chord Qualities (triads, tetrads, both)
+		what is the root and diatonic chord quality of triad #:
+			4? F Major
+			2? D Minor
+			7? B Diminished
+
+		what is the root and diatonic chord quality of tetrad #:
+			4? F Major 7
+			5? G Dominant 7
+			7? B Diminished 7
+
+What is the relative minor key for the key of:
+	C? A Minor
+	F? D Minor
+
+What notes make up the triad:
+	Dm
+What notes make up the tetrad:
+	CMaj7
+What notes make up the triad/tetrad:
+	Dm
+	CMaj7
+
+Scale Degrees
+	Modes: Scale Degree -> Note,
+			Note -> Scale Degree,
+			Both
+
+	Keys: C, Db, D, Eb, ...
+
+		For each key, have separate, saved selection states:
+			1 - o
+			2 - o
+			3 - x
+			4 - x
+			5 - x, ...
+
+Allow checkboxes for any key to be randomly drawn from
+Allow selections of which
+
+*In my explanation, explain:
+	NNS - Roman Numerals
+	diatonic/chromatic
+	triad/tetrad
+	Relative Minor
+	Chord notation for triads/tetrads
+
+

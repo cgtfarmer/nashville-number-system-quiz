@@ -1,0 +1,43 @@
+console.log("Here1");
+
+var names;
+
+// $.ajax({
+	// mimeType: 'text/plain; charset=x-user-defined',
+	// url: "stuff.json",
+	// type: "GET",
+	// dataType: "json",
+	// timeout: 10000,
+	// cache: true,
+	// success: function(data) {
+		// console.log("HereX");
+		// console.log(data);
+		// names = data;
+	// },
+	// error: function(jqXHR, textStatus, errorThrown) {
+		// console.log(jqXHR, textStatus, errorThrown);
+	// }
+// });
+
+console.log("Here2");
+
+var app = angular.module('myApp', []);
+
+console.log("Here3");
+
+app.controller('myCtrl', function($scope, $http) {
+	console.log("Here4");
+	$http.get("stuff.json")
+		.then(function(response) {
+			console.log(response);
+			$scope.firstName = response.data["firstName"];
+			$scope.lastName = response.data["lastName"];
+		});
+    // $scope.firstName= "Cat";
+    // $scope.lastName= "Doe";
+    // $scope.firstName = names["firstName"];
+    // $scope.lastName = names["lastName"];
+
+	console.log("Here5");
+});
+

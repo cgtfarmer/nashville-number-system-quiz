@@ -1,0 +1,245 @@
+{
+	"triads": {
+		"C": {
+			"1": "Cmaj",
+			"2": "Dmin",
+			"3": "Emin",
+			"4": "Fmaj",
+			"5": "Gmaj",
+			"6": "Amin",
+			"7": "Bdim"
+		},
+
+		"D": {
+			"1": "Dmaj",
+			"2": "Emin",
+			"3": "F#min",
+			"4": "Gmaj",
+			"5": "Amaj",
+			"6": "Bmin",
+			"7": "C#dim"
+		},
+
+		"E": {
+			"1": "Emaj",
+			"2": "F#min",
+			"3": "G#min",
+			"4": "Amaj",
+			"5": "Bmaj",
+			"6": "C#min",
+			"7": "D#dim"
+		},
+
+		"F": {
+			"1": "Fmaj",
+			"2": "Gmin",
+			"3": "Amin",
+			"4": "Bbmaj",
+			"5": "Cmaj",
+			"6": "Dmin",
+			"7": "Fdim"
+		},
+
+		"G": {
+			"1": "Gmaj",
+			"2": "Amin",
+			"3": "Bmin",
+			"4": "Cmaj",
+			"5": "Dmaj",
+			"6": "Emin",
+			"7": "F#dim"
+		},
+
+		"A": {
+			"1": "Amaj",
+			"2": "Bmin",
+			"3": "C#min",
+			"4": "Dmaj",
+			"5": "Emaj",
+			"6": "F#min",
+			"7": "G#dim"
+		},
+
+		"B": {
+			"1": "Bmaj",
+			"2": "C#min",
+			"3": "D#min",
+			"4": "Emaj",
+			"5": "F#maj",
+			"6": "G#min",
+			"7": "A#dim"
+		},
+
+		"Db": {
+			"1": "Dbmaj",
+			"2": "Ebmin",
+			"3": "Fmin",
+			"4": "Gbmaj",
+			"5": "Abmaj",
+			"6": "Bbmin",
+			"7": "Cdim"
+		},
+
+		"Eb": {
+			"1": "Ebmaj",
+			"2": "Fmin",
+			"3": "Gmin",
+			"4": "Abmaj",
+			"5": "Bbmaj",
+			"6": "Cmin",
+			"7": "Ddim"
+		},
+
+		"Gb": {
+			"1": "Gbmaj",
+			"2": "Abmin",
+			"3": "Bbmin",
+			"4": "Bmaj",
+			"5": "Dbmaj",
+			"6": "Ebmin",
+			"7": "Fdim"
+		},
+
+		"Ab": {
+			"1": "Abmaj",
+			"2": "Bbmin",
+			"3": "Cmin",
+			"4": "Dbmaj",
+			"5": "Ebmaj",
+			"6": "Fmin",
+			"7": "Gdim"
+		},
+
+		"Bb": {
+			"1": "Bbmaj",
+			"2": "Cmin",
+			"3": "Dmin",
+			"4": "Ebmaj",
+			"5": "Fmaj",
+			"6": "Gmin",
+			"7": "Adim"
+		}
+	},
+
+	"tetrads": {
+		"C": {
+			"1": "Cmaj7",
+			"2": "Dmin7",
+			"3": "Emin7",
+			"4": "Fmaj7",
+			"5": "G7",
+			"6": "Amin7",
+			"7": "Bhalf-dim7"
+		},
+
+		"D": {
+			"1": "Dmaj7",
+			"2": "Emin7",
+			"3": "F#min7",
+			"4": "Gmaj7",
+			"5": "A7",
+			"6": "Bmin7",
+			"7": "C#half-dim7"
+		},
+
+		"E": {
+			"1": "Emaj7",
+			"2": "F#min7",
+			"3": "G#min7",
+			"4": "Amaj7",
+			"5": "B7",
+			"6": "C#min7",
+			"7": "D#half-dim7"
+		},
+
+		"F": {
+			"1": "Fmaj7",
+			"2": "Gmin7",
+			"3": "Amin7",
+			"4": "Bbmaj7",
+			"5": "C7",
+			"6": "Dmin7",
+			"7": "Fhalf-dim7"
+		},
+
+		"G": {
+			"1": "Gmaj7",
+			"2": "Amin7",
+			"3": "Bmin7",
+			"4": "Cmaj7",
+			"5": "D7",
+			"6": "Emin7",
+			"7": "F#half-dim7"
+		},
+
+		"A": {
+			"1": "Amaj7",
+			"2": "Bmin7",
+			"3": "C#min7",
+			"4": "Dmaj7",
+			"5": "E7",
+			"6": "F#min7",
+			"7": "G#half-dim7"
+		},
+
+		"B": {
+			"1": "Bmaj7",
+			"2": "C#min7",
+			"3": "D#min7",
+			"4": "Emaj7",
+			"5": "F#7",
+			"6": "G#min7",
+			"7": "A#half-dim7"
+		},
+
+		"Db": {
+			"1": "Dbmaj7",
+			"2": "Ebmin7",
+			"3": "Fmin7",
+			"4": "Gbmaj7",
+			"5": "Ab7",
+			"6": "Bbmin7",
+			"7": "Chalf-dim7"
+		},
+
+		"Eb": {
+			"1": "Ebmaj7",
+			"2": "Fmin7",
+			"3": "Gmin7",
+			"4": "Abmaj7",
+			"5": "Bb7",
+			"6": "Cmin7",
+			"7": "Dhalf-dim7"
+		},
+
+		"Gb": {
+			"1": "Gbmaj7",
+			"2": "Abmin7",
+			"3": "Bbmin7",
+			"4": "Bmaj7",
+			"5": "Db7",
+			"6": "Ebmin7",
+			"7": "Fhalf-dim7"
+		},
+
+		"Ab": {
+			"1": "Abmaj7",
+			"2": "Bbmin7",
+			"3": "Cmin7",
+			"4": "Dbmaj7",
+			"5": "Eb7",
+			"6": "Fmin7",
+			"7": "Ghalf-dim7"
+		},
+
+		"Bb": {
+			"1": "Bbmaj7",
+			"2": "Cmin7",
+			"3": "Dmin7",
+			"4": "Ebmaj7",
+			"5": "F7",
+			"6": "Gmin7",
+			"7": "Ahalf-dim7"
+		}
+	}
+}
