@@ -1,0 +1,31 @@
+{
+	"title" : "Nashville Number System Quiz", 
+	"date" : "2019-06", 
+	"revenue" : "No", 
+	"status" : "Complete", 
+	"summary" : "The purpose of this web application is to provide an efficient method of practicing/memorizing the identification of the basic triads and tetrads (as they relate to scale degrees) of all 12 keys",
+	"description" : "Using AngularJS' http service, the JSON file is asynchronously loaded and it populates the help table at the bottom and is fed through a question randomizer that follows the user's menu choices. Using CSS grid and media queries for responsiveness", 
+	"future-work" : [
+						""
+				    ],
+	"live-link" : "http://info.christianfarmer.org/music/quizzes/nns", 
+	"demonstration-link" : "Contact me", 
+	"repository-link" : "Contact me", 
+	"supported-platforms" : ["Windows", "MacOS", "Linux", "Android", "iOS"],
+	"supported-browsers" : ["Mozilla Firefox", "Safari"], 
+	"version-control" : "Git", 
+	"development-methods" : "None", 
+	"team-size" : "1", 
+	"lines-of-code" : "670", 
+	"user-interface" : "Web", 
+	"keywords" : ["Education", "Web Application", "UI/UX", "Games"], 
+	"languages" : ["HTML", "CSS", "JavaScript", "JSON"],
+	"libraries" : [
+					"JavaScript: jQuery, AngularJS"
+				  ],
+	"external-programs" : "None", 
+	"development-os" : "Linux: Arch", 
+	"deployment-os" : "Linux: Debian", 
+	"web-server" : "Apache", 
+	"databases" : ["None"]
+}
