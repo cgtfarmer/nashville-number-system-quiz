@@ -11,7 +11,7 @@
 	"live-link" : "http://projects.christianfarmer.org/software/informational-sites/music/quizzes/nns", 
 	"demonstration-link" : "Contact me", 
 	"repository-link" : "Contact me", 
-	"supported-platforms" : ["Windows", "MacOS", "Linux", "Android", "iOS"],
+	"supported-platforms" : ["Windows", "macOS", "Linux", "Android", "iOS"],
 	"supported-browsers" : ["Mozilla Firefox", "Safari"], 
 	"version-control" : "Git", 
 	"development-methods" : "None", 
